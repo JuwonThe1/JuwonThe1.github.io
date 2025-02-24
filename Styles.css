@@ -1,0 +1,85 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* Homepage Styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    color: #555;
+    font-size: 18px;
+}
+
+/* About Me Page Styles */
+h1 {
+    color: blue;
+}
+
+section p {
+    color: #333;
+    font-size: 18px;
+}
+
+/* Contact Me Page Styles */
+form label {
+    color: #333;
+    font-size: 16px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="text"], form input[type="email"] {
+    background-color: #f0f0f0;
+}
+
+form textarea {
+    background-color: #f9f9f9;
+}
+
+/* Submit Button */
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #555;
+}
